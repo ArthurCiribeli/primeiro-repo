@@ -1,0 +1,124 @@
+@import '../utils/index.css';
+@import url(../components/status-bar.css);
+@import url(../components/bottom-navbar.css);
+
+.notification{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.notification-area{
+    display: flex;
+    align-items: center;
+}
+.notification__text{
+    font-size: 16px;
+    margin-left: 4px;
+}
+.notification__img{
+    width: 15px;
+}
+.series-background{
+    background-color: #424242;
+      
+}
+.series-logo{
+    display: flex;
+    align-items: center;
+}
+.series-logo__img{
+    height: 76px;
+    width: 146px;
+    margin: 5px 30px 5px 12px;
+}
+.series-block{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+h1{
+
+}
+.big-serie{
+    margin-bottom: 20px;
+}
+.big-serie__img{
+    width: 100%;
+    height: 150px;
+}
+.big-serie-logo{
+    width: 100%;
+    height: 150px;
+}
+.big-serie__date{
+    color: #8c8787;
+    margin-top: 13px;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.3978px;
+}
+.big-serie__text{
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.1409px;
+    color: rgba(255, 255, 255, 0.83);
+}
+.compartilhar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 23px;
+    padding-right: 28px;
+}
+.espaçameto{
+    margin-right: 40px;
+}
+.search-movie__play-title{
+    font-weight: 500;
+    font-size: 13.7195px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+.search-movie__play-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.5095px;
+    color: rgba(255, 255, 255, 0.48);
+    padding-top: 7px;
+}
+h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18.6623px;
+    padding-left: 12px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+.tag{
+    height: 18px;
+    margin-top: 7px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tag p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.3978px;
+}
+.bola{
+    width: 3px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 50%;
+}
+.serie-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.7195px;
+    color: rgba(255, 255, 255, 0.83);
+    padding-top: 7px;
+}
